@@ -66,21 +66,22 @@
             this.groupBox1.Controls.Add(this.code);
             this.groupBox1.Controls.Add(this.btn_add_course);
             this.groupBox1.Font = new System.Drawing.Font("B Nazanin", 11F, System.Drawing.FontStyle.Bold);
-            this.groupBox1.Location = new System.Drawing.Point(15, 14);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Location = new System.Drawing.Point(11, 11);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox1.Size = new System.Drawing.Size(447, 230);
+            this.groupBox1.Size = new System.Drawing.Size(335, 187);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "افزودن درس جدید";
             // 
             // btn_back9
             // 
-            this.btn_back9.Location = new System.Drawing.Point(12, 180);
+            this.btn_back9.Location = new System.Drawing.Point(9, 146);
+            this.btn_back9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_back9.Name = "btn_back9";
-            this.btn_back9.Size = new System.Drawing.Size(111, 37);
+            this.btn_back9.Size = new System.Drawing.Size(83, 30);
             this.btn_back9.TabIndex = 14;
             this.btn_back9.Text = "بازگشت";
             this.btn_back9.UseVisualStyleBackColor = true;
@@ -88,112 +89,117 @@
             // 
             // examTime
             // 
-            this.examTime.Location = new System.Drawing.Point(236, 122);
-            this.examTime.Margin = new System.Windows.Forms.Padding(4);
+            this.examTime.Location = new System.Drawing.Point(177, 99);
             this.examTime.Name = "examTime";
-            this.examTime.Size = new System.Drawing.Size(93, 37);
+            this.examTime.Size = new System.Drawing.Size(71, 31);
             this.examTime.TabIndex = 13;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(144, 126);
+            this.label5.Location = new System.Drawing.Point(108, 102);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(88, 30);
+            this.label5.Size = new System.Drawing.Size(69, 24);
             this.label5.TabIndex = 12;
             this.label5.Text = "تعداد واحد:";
             // 
             // val
             // 
-            this.val.Location = new System.Drawing.Point(12, 122);
-            this.val.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.val.Location = new System.Drawing.Point(9, 99);
+            this.val.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.val.Name = "val";
-            this.val.Size = new System.Drawing.Size(121, 37);
+            this.val.Size = new System.Drawing.Size(92, 31);
             this.val.TabIndex = 11;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(336, 126);
+            this.label6.Location = new System.Drawing.Point(252, 102);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(102, 30);
+            this.label6.Size = new System.Drawing.Size(79, 24);
             this.label6.TabIndex = 10;
             this.label6.Text = "تاریخ امتحان:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(143, 81);
+            this.label3.Location = new System.Drawing.Point(107, 66);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 30);
+            this.label3.Size = new System.Drawing.Size(69, 24);
             this.label3.TabIndex = 8;
             this.label3.Text = "زمان کلاس:";
             // 
             // time
             // 
-            this.time.Location = new System.Drawing.Point(12, 78);
-            this.time.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.time.Location = new System.Drawing.Point(9, 63);
+            this.time.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.time.Name = "time";
-            this.time.Size = new System.Drawing.Size(121, 37);
+            this.time.Size = new System.Drawing.Size(92, 31);
             this.time.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(363, 81);
+            this.label4.Location = new System.Drawing.Point(272, 66);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 30);
+            this.label4.Size = new System.Drawing.Size(58, 24);
             this.label4.TabIndex = 6;
             this.label4.Text = "کد استاد:";
             // 
             // masterCode
             // 
-            this.masterCode.Location = new System.Drawing.Point(235, 78);
-            this.masterCode.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.masterCode.Location = new System.Drawing.Point(176, 63);
+            this.masterCode.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.masterCode.Name = "masterCode";
-            this.masterCode.Size = new System.Drawing.Size(121, 37);
+            this.masterCode.Size = new System.Drawing.Size(92, 31);
             this.masterCode.TabIndex = 5;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(144, 36);
+            this.label2.Location = new System.Drawing.Point(108, 29);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 30);
+            this.label2.Size = new System.Drawing.Size(57, 24);
             this.label2.TabIndex = 4;
             this.label2.Text = "نام درس:";
             // 
             // name
             // 
-            this.name.Location = new System.Drawing.Point(12, 32);
-            this.name.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.name.Location = new System.Drawing.Point(9, 26);
+            this.name.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(121, 37);
+            this.name.Size = new System.Drawing.Size(92, 31);
             this.name.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(363, 34);
+            this.label1.Location = new System.Drawing.Point(272, 28);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 30);
+            this.label1.Size = new System.Drawing.Size(57, 24);
             this.label1.TabIndex = 2;
             this.label1.Text = "کد درس:";
             // 
             // code
             // 
-            this.code.Location = new System.Drawing.Point(235, 32);
-            this.code.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.code.Location = new System.Drawing.Point(176, 26);
+            this.code.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.code.Name = "code";
-            this.code.Size = new System.Drawing.Size(121, 37);
+            this.code.Size = new System.Drawing.Size(92, 31);
             this.code.TabIndex = 1;
             // 
             // btn_add_course
             // 
-            this.btn_add_course.Location = new System.Drawing.Point(143, 180);
-            this.btn_add_course.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_add_course.Location = new System.Drawing.Point(140, 146);
+            this.btn_add_course.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_add_course.Name = "btn_add_course";
-            this.btn_add_course.Size = new System.Drawing.Size(123, 37);
+            this.btn_add_course.Size = new System.Drawing.Size(92, 30);
             this.btn_add_course.TabIndex = 0;
             this.btn_add_course.Text = "افزودن";
             this.btn_add_course.UseVisualStyleBackColor = true;
@@ -205,13 +211,12 @@
             // 
             // AddCoursePanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(476, 257);
+            this.ClientSize = new System.Drawing.Size(357, 209);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddCoursePanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddCourse";
